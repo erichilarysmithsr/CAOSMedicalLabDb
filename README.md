@@ -37,11 +37,11 @@ Whether the cake should be gluten-free or not.
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+Medical Objects successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
+{    "name": "Medical Objects",    "items": "grocery_list",    "food": "McData"}
 ```
 {% endapi-method-response-example %}
 
