@@ -24,7 +24,7 @@ Authentication token to track down who is emptying our stocks.
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="heartrate" type="string" %}
+{% api-method-parameter name="GoogleFit" type="string" %}
 The API will do its best to find a cake matching the provided recipe.
 {% endapi-method-parameter %}
 
