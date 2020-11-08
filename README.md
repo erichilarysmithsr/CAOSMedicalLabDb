@@ -13,23 +13,23 @@ This endpoint allows you to get medical objects.
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="project\_id" type="string" %}
-ID of the cake to get, for free of course.
+projectID of the medical object to get, for the health api.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authentication" type="string" required=false %}
-Authentication token to track down who is emptying our stocks.
+Authentication token to track down who can use the health api.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="GoogleFit" type="string" %}
-The API will do its best to find a cake matching the provided recipe.
+{% api-method-parameter name="GoogleFit" type="array" %}
+The API will do its best to find a medical object matching the patient health information.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="patientwalkingspeed" type="boolean" %}
-Whether the cake should be gluten-free or not.
+{% api-method-parameter name="Fitbit" type="array" %}
+Whether the Patient Walking    Speed should be high or low..
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
