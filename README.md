@@ -2,7 +2,7 @@
 
 {% api-method method="post" host="https://postmarkapp.com/servers/1/overview" path=" " %}
 {% api-method-summary %}
-IMHOTEP Bizarros
+IMHOTEP Bizarros Message-Streams
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -12,8 +12,8 @@ IMHOTEP Bizarros
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="MessageStreamType" type="string" required=false %}
+Broadcasts Transactional
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
@@ -32,9 +32,9 @@ IMHOTEP Bizarros
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.caosreaxson.com" path="/v1/medicalobjects/:project\_id" %}
+{% api-method method="get" host="https://api.caosreaxson.com" path="/v1/medicalobjects/:stream\_id" %}
 {% api-method-summary %}
-Get Sifidious
+Get Sifidious Message-Streams
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -44,7 +44,7 @@ This endpoint allows you to get medical objects.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="project\_id" type="string" %}
+{% api-method-parameter name="stream\_id" type="string" %}
 projectID of the medical object to get, for the health api.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
