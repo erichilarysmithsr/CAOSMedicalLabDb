@@ -1,6 +1,6 @@
 # CAOS Medical Lab API
 
-{% api-method method="post" host="" path="" %}
+{% api-method method="post" host="https://postmarkapp.com/servers/1/overview" path=" " %}
 {% api-method-summary %}
 IMHOTEP Bizarros
 {% endapi-method-summary %}
