@@ -2,11 +2,11 @@
 
 {% api-method method="get" host="https://api.caosmedicallab.com" path="/v1/medicalobjects/:id" %}
 {% api-method-summary %}
-Get MedicalObjects
+Get Sifidious
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+This endpoint allows you to get medical objects.
 {% endapi-method-description %}
 
 {% api-method-spec %}
