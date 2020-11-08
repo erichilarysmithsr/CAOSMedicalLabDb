@@ -12,7 +12,7 @@ This endpoint allows you to get medical objects.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" %}
+{% api-method-parameter name="project\_id" type="string" %}
 ID of the cake to get, for free of course.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
