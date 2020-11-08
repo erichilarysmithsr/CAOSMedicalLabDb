@@ -1,8 +1,8 @@
 # CAOS Medical Lab API
 
-{% api-method method="post" host="https://postmarkapp.com/servers/1/overview" path=" " %}
+{% api-method method="post" host="https://api.postmarkapp.com" path="/message-streams" %}
 {% api-method-summary %}
-IMHOTEP Bizarros Message-Streams
+IMHOTEP Bizarros message-streams
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -34,7 +34,7 @@ Broadcasts Transactional
 
 {% api-method method="get" host="https://api.caosreaxson.com" path="/v1/medicalobjects/:stream\_id" %}
 {% api-method-summary %}
-Get Sifidious Message-Streams
+Get Sifidious message-streams
 {% endapi-method-summary %}
 
 {% api-method-description %}
