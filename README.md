@@ -1,6 +1,6 @@
 # CAOS Medical Lab API
 
-{% api-method method="get" host="https://api.caosmedicallab.com" path="/v1/medicalobjects/:project\_id" %}
+{% api-method method="get" host="https://api.caosreaxson.com" path="/v1/medicalobjects/:project\_id" %}
 {% api-method-summary %}
 Get Sifidious
 {% endapi-method-summary %}
