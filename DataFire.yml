@@ -12,3 +12,7 @@ tasks:
       array: articles
       input:
         mediaTypeExtension: '""'
+paths:
+  /paths0:
+    get:
+      action: healthcare_gov/api.articlesmediaTypeExtension.get
