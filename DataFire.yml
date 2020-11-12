@@ -13,6 +13,17 @@ tasks:
       array: articles
       input:
         mediaTypeExtension: '""'
+  task1:
+    schedule: cron(5 8 ? * 0)
+    action: fitbit/oauthCallback
+    monitor:
+      action: fitbit/oauthCallback
+      trackBy: ''
+      array: ''
+      accounts: {}
+      input:
+        code: '""'
+    accounts: {}
 paths:
   /paths0:
     get:
