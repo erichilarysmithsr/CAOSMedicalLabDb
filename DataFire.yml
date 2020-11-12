@@ -58,3 +58,8 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test2:
+    action: google_fitness/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
