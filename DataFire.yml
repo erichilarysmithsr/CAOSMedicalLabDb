@@ -25,6 +25,17 @@ tasks:
       input:
         code: '""'
     accounts: {}
+  task2:
+    schedule: cron(5 8 ? * 0)
+    action: google_fitness/oauthCallback
+    monitor:
+      action: google_fitness/oauthCallback
+      trackBy: ''
+      array: ''
+      accounts: {}
+      input:
+        code: '""'
+    accounts: {}
 paths:
   /paths0:
     get:
