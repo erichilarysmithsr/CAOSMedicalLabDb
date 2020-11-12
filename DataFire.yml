@@ -44,6 +44,10 @@ paths:
     get:
       action: fitbit/oauthCallback
       accounts: {}
+  /paths2:
+    get:
+      action: google_fitness/oauthCallback
+      accounts: {}
 tests:
   test:
     action: healthcare_gov/api.articlesmediaTypeExtension.get
