@@ -2,3 +2,13 @@ options:
   cors: true
 actions:
   action: ./actions/action.js
+tasks:
+  task:
+    schedule: cron(5 8 ? * 0)
+    action: healthcare_gov/api.articlesmediaTypeExtension.get
+    monitor:
+      action: healthcare_gov/api.articlesmediaTypeExtension.get
+      trackBy: id
+      array: articles
+      input:
+        mediaTypeExtension: '""'
