@@ -16,3 +16,8 @@ paths:
   /paths0:
     get:
       action: healthcare_gov/api.articlesmediaTypeExtension.get
+tests:
+  test:
+    action: healthcare_gov/api.articlesmediaTypeExtension.get
+    input:
+      mediaTypeExtension: '""'
