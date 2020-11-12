@@ -37,3 +37,8 @@ tests:
     action: healthcare_gov/api.articlesmediaTypeExtension.get
     input:
       mediaTypeExtension: '""'
+  test1:
+    action: fitbit/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
