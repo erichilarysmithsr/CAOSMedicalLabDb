@@ -28,6 +28,10 @@ paths:
   /paths0:
     get:
       action: healthcare_gov/api.articlesmediaTypeExtension.get
+  /paths1:
+    get:
+      action: fitbit/oauthCallback
+      accounts: {}
 tests:
   test:
     action: healthcare_gov/api.articlesmediaTypeExtension.get
