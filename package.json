@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@datafire/healthcare_gov": "5.0.0"
+    "@datafire/healthcare_gov": "5.0.0",
+    "@datafire/fitbit": "4.0.0"
   }
 }

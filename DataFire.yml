@@ -2,6 +2,7 @@ options:
   cors: true
 actions:
   action: ./actions/action.js
+  action1: ./actions/action1.js
 tasks:
   task:
     schedule: cron(5 8 ? * 0)
