@@ -60,6 +60,10 @@ paths:
     get:
       action: google_fitness/oauthCallback
       accounts: {}
+  /paths3:
+    get:
+      action: chompthis/food.branded.barcode.php.get
+      accounts: {}
 tests:
   test:
     action: healthcare_gov/api.articlesmediaTypeExtension.get
