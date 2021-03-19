@@ -79,3 +79,8 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test3:
+    action: chompthis/food.branded.barcode.php.get
+    accounts: {}
+    input:
+      code: '""'
