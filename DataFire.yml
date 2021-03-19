@@ -78,7 +78,8 @@ paths:
       accounts: {}
   /paths4:
     get:
-      action: fitbit/user._.foods.log.water.json.post
+      action: fitbit/user._.foods.log.water.date.date.json.get
+      accounts: {}
 tests:
   test:
     action: healthcare_gov/api.articlesmediaTypeExtension.get
