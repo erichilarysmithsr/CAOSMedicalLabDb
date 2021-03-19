@@ -5,6 +5,7 @@ actions:
   action1: ./actions/action1.js
   action2: ./actions/action2.js
   action3: ./actions/action3.js
+  action4: ./actions/action4.js
 tasks:
   task:
     schedule: cron(5 8 ? * 0)
@@ -48,6 +49,9 @@ tasks:
       input:
         code: '""'
     accounts: {}
+  task4:
+    schedule: rate(1 day)
+    action: action
 paths:
   /paths0:
     get:
@@ -64,6 +68,9 @@ paths:
     get:
       action: chompthis/food.branded.barcode.php.get
       accounts: {}
+  /paths4:
+    get:
+      action: fitbit/user._.foods.log.water.json.post
 tests:
   test:
     action: healthcare_gov/api.articlesmediaTypeExtension.get
