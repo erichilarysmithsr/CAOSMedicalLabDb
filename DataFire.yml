@@ -100,3 +100,8 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test4:
+    action: fitbit/user._.foods.log.water.date.date.json.get
+    accounts: {}
+    input:
+      date: '""'
