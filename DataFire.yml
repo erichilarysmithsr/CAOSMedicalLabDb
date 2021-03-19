@@ -37,6 +37,17 @@ tasks:
       input:
         code: '""'
     accounts: {}
+  task3:
+    schedule: cron(5 8 ? * 0)
+    action: chompthis/food.branded.barcode.php.get
+    monitor:
+      action: chompthis/food.branded.barcode.php.get
+      trackBy: vitamins
+      array: items
+      accounts: {}
+      input:
+        code: '""'
+    accounts: {}
 paths:
   /paths0:
     get:
