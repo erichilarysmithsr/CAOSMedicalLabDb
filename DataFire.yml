@@ -50,8 +50,16 @@ tasks:
         code: '""'
     accounts: {}
   task4:
-    schedule: rate(1 day)
-    action: action
+    schedule: cron(5 8 ? * 0)
+    action: fitbit/user._.foods.log.water.date.date.json.get
+    monitor:
+      action: fitbit/user._.foods.log.water.date.date.json.get
+      trackBy: ''
+      array: ''
+      accounts: {}
+      input:
+        date: '""'
+    accounts: {}
 paths:
   /paths0:
     get:
