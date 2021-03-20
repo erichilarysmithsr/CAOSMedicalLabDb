@@ -95,6 +95,10 @@ paths:
     get:
       action: fitbit/user._.foods.log.water.date.date.json.get
       accounts: {}
+  /paths5:
+    get:
+      action: google_sheets/sheets.spreadsheets.get
+      accounts: {}
 tests:
   test:
     action: healthcare_gov/api.articlesmediaTypeExtension.get
