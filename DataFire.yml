@@ -61,6 +61,20 @@ tasks:
       input:
         date: '""'
     accounts: {}
+  task5:
+    schedule: cron(5 8 ? * 0)
+    action: google_sheets/sheets.spreadsheets.get
+    monitor:
+      action: google_sheets/sheets.spreadsheets.get
+      trackBy: weeklySchedule
+      array: dataSourceSchedules
+      accounts: {}
+      input:
+        spreadsheetId: '""'
+        includeGridData: true
+        ranges: []
+        prettyPrint: true
+    accounts: {}
 paths:
   /paths0:
     get:
