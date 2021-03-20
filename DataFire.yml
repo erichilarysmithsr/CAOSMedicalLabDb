@@ -124,3 +124,11 @@ tests:
     accounts: {}
     input:
       date: '""'
+  test5:
+    action: google_sheets/sheets.spreadsheets.get
+    accounts: {}
+    input:
+      ranges: []
+      spreadsheetId: '""'
+      includeGridData: true
+      prettyPrint: true
