@@ -76,6 +76,14 @@ tasks:
         ranges: []
         prettyPrint: true
     accounts: {}
+  task6:
+    schedule: cron(5 8 ? * 0)
+    action: c19qrserver_local/users.get
+    monitor:
+      action: c19qrserver_local/users.get
+      trackBy: id
+      accounts: {}
+    accounts: {}
 paths:
   /paths0:
     get:
