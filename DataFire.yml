@@ -145,3 +145,6 @@ tests:
       spreadsheetId: '""'
       includeGridData: true
       prettyPrint: true
+  test6:
+    action: c19qrserver_local/users.get
+    accounts: {}
