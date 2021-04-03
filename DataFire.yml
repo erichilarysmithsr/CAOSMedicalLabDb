@@ -108,6 +108,10 @@ paths:
     get:
       action: google_sheets/sheets.spreadsheets.get
       accounts: {}
+  /paths6:
+    get:
+      action: c19qrserver_local/users.get
+      accounts: {}
 tests:
   test:
     action: healthcare_gov/api.articlesmediaTypeExtension.get
