@@ -120,6 +120,9 @@ paths:
     get:
       action: c19qrserver_local/users.get
       accounts: {}
+  /paths7:
+    get:
+      action: twitter_labs/getOpenApiSpec
 tests:
   test:
     action: healthcare_gov/api.articlesmediaTypeExtension.get
