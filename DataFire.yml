@@ -159,3 +159,5 @@ tests:
   test6:
     action: c19qrserver_local/users.get
     accounts: {}
+  test7:
+    action: twitter_labs/getOpenApiSpec
