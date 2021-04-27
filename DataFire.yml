@@ -85,6 +85,13 @@ tasks:
       trackBy: id
       accounts: {}
     accounts: {}
+  task7:
+    schedule: cron(5 8 ? * 0)
+    action: twitter_labs/getOpenApiSpec
+    monitor:
+      action: twitter_labs/getOpenApiSpec
+      trackBy: ''
+      array: ''
 paths:
   /paths0:
     get:
