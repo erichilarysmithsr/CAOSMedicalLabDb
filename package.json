@@ -5,7 +5,8 @@
     "@datafire/google_fitness": "5.0.0",
     "@datafire/chompthis": "3.0.0",
     "@datafire/google_sheets": "6.0.0",
-    "@datafire/c19qrserver_local": "3.0.0"
+    "@datafire/c19qrserver_local": "3.0.0",
+    "@datafire/twitter_labs": "3.0.0"
   },
   "name": "pharmakonmedicalcloud",
   "version": "1.0.0"
