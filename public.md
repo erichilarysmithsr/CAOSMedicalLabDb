@@ -6,7 +6,7 @@ description: Landing Page for CAOS Medical Lab Db and API
 
 ## CORN Flake S
 
-### Content Object Resource Network Flake Server
+### Content Object Resource Network Flake Server:  A Health Content Resource Information Management System for Emergent APHID
 
 #### APHID
 
