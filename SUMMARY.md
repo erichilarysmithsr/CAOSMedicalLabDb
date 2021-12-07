@@ -1,5 +1,4 @@
 # Table of contents
 
-* [CAOS Medical Lab API](README.md)
+* [CAOS API](README.md)
 * [Public](public.md)
-
