@@ -1,5 +1,5 @@
 ---
-description: Landing Page for CAOS Medical Lab Db and API
+description: Landing Page for CAOS Medical Lab Db Repository and CAOS API
 ---
 
 # Public
