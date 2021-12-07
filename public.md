@@ -13,8 +13,5 @@ description: Landing Page for CAOS Medical Lab Db and API
 &#x20;What is COMET FISH?
 
 * CAOS Objects that are for Medical Terminology Fast Information Service 4 Health
-
-<!---->
-
-* COMET FISH relies on many objects from Medical Terminology
-
+* COMET FISH relies on 6 Objects for implementation in Android and XML via JSON Objects
+*
