@@ -29,7 +29,7 @@ Retrieve rows from your sheet
 {% endswagger %}
 
 ```javascript
-/ let url = 'https://api.sheety.co/2038ea59d35e3cf806679a2706330dc9/replicatedPimaIndiansDatasetForDiabetes/formResponses1';
+// let url = 'https://api.sheety.co/2038ea59d35e3cf806679a2706330dc9/replicatedPimaIndiansDatasetForDiabetes/formResponses1';
   let body = {
     formResponses1: {
       ...
