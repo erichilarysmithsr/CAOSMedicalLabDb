@@ -28,6 +28,16 @@ Retrieve rows from your sheet
 {% endswagger-response %}
 {% endswagger %}
 
+```
+//let url = 'https://api.sheety.co/2038ea59d35e3cf806679a2706330dc9/replicatedPimaIndiansDatasetForDiabetes/formResponses1';
+fetch(url)
+.then((response) => response.json())
+.then(json => {
+  // Do something with the data
+  console.log(json.formResponses1S);
+});
+```
+
 {% swagger method="post" path="" baseUrl="https://api.sheety.co/2038ea59d35e3cf806679a2706330dc9/replicatedPimaIndiansDatasetForDiabetes/formResponses1" summary="Form Response 1b" %}
 {% swagger-description %}
 Update a Row
