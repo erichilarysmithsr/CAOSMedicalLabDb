@@ -28,6 +28,28 @@ Retrieve rows from your sheet
 {% endswagger-response %}
 {% endswagger %}
 
+{% swagger method="post" path="" baseUrl="https://api.sheety.co/2038ea59d35e3cf806679a2706330dc9/replicatedPimaIndiansDatasetForDiabetes/formResponses1" summary="Form Response 1b" %}
+{% swagger-description %}
+Update a Row
+{% endswagger-description %}
+
+{% swagger-response status="200: OK" description="HTTP OK" %}
+```javascript
+{
+    // Response
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="404: Not Found" description="Page Not Found" %}
+```javascript
+{
+    // Response
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
 ```javascript
 // let url = 'https://api.sheety.co/2038ea59d35e3cf806679a2706330dc9/replicatedPimaIndiansDatasetForDiabetes/formResponses1';
   let body = {
