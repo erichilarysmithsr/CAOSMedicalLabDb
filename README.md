@@ -29,17 +29,19 @@ Retrieve rows from your sheet
 {% endswagger %}
 
 ```javascript
-//let url = 'https://api.sheety.co/2038ea59d35e3cf806679a2706330dc9/replicatedPimaIndiansDatasetForDiabetes/formResponses1';
-fetch(url)
-.then((response) => response.json())
-.then(json => {
-  // Do something with the data
-  console.log(json.formResponses1S);
-});
+/ let url = 'https://api.sheety.co/2038ea59d35e3cf806679a2706330dc9/replicatedPimaIndiansDatasetForDiabetes/formResponses1';
+  let body = {
+    formResponses1: {
+      ...
+    }
+  }
+  fetch(url, {
+    method: 'POST',
+    body: JSON.stringify(body)
+  })
+  .then((response) => response.json())
+  .then(json => {
+    // Do something with object
+    console.log(json.formResponses1);
+  });
 ```
-
-{% swagger method="post" path="" baseUrl="" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
