@@ -28,8 +28,9 @@ Retrieve rows from your sheet
 {% endswagger-response %}
 {% endswagger %}
 
-```
-//<head>
+{% code title="index.html" %}
+```html
+<head>
 <script>
 Some S is P.
 Proposition.  Suppose some S is P.
@@ -47,6 +48,15 @@ and also, f(A) and f(B) are Invertible (I) because they are nonzero matrices.</s
 
 
 ```
+{% endcode %}
+
+{% code title="main.js" %}
+```javascript
+mai// 
+let url = 'https://api.sheety.co/2038ea59d35e3cf806679a2706330dc9/replicatedPimaIndiansDatasetForDiabetes/formResponses1';fetch(url).then((response) => response.json()).then(json => {  // Do something with the data  console.log(json.formResponses1S);});
+
+```
+{% endcode %}
 
 {% swagger method="post" path="" baseUrl="https://api.sheety.co/2038ea59d35e3cf806679a2706330dc9/replicatedPimaIndiansDatasetForDiabetes/formResponses1" summary="Form Response 1b" %}
 {% swagger-description %}
@@ -70,6 +80,7 @@ Update a Row
 {% endswagger-response %}
 {% endswagger %}
 
+{% code title="main.js" %}
 ```javascript
 // let url = 'https://api.sheety.co/2038ea59d35e3cf806679a2706330dc9/replicatedPimaIndiansDatasetForDiabetes/formResponses1';
   let body = {
@@ -87,3 +98,4 @@ Update a Row
     console.log(json.formResponses1);
   });
 ```
+{% endcode %}
