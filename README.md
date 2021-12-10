@@ -29,13 +29,23 @@ Retrieve rows from your sheet
 {% endswagger %}
 
 ```
-//let url = 'https://api.sheety.co/2038ea59d35e3cf806679a2706330dc9/replicatedPimaIndiansDatasetForDiabetes/formResponses1';
-fetch(url)
-.then((response) => response.json())
-.then(json => {
-  // Do something with the data
-  console.log(json.formResponses1S);
-});
+//<head>
+<script>
+Some S is P.
+Proposition.  Suppose some S is P.
+There exist that some S is P.
+Let S, S is P.
+When S is a nonzero matrix,
+When P is a nonzero matrix,
+and when S = m * n,
+and when P = m * n,
+and also, when m * n as a nonzero matrix is equaled to f(A),
+and also, when m * n as a nonzero matrix is equaled to f(B)
+and also, f(A) and f(B) are Invertible (I) because they are nonzero matrices.</script>
+</head>
+
+
+
 ```
 
 {% swagger method="post" path="" baseUrl="https://api.sheety.co/2038ea59d35e3cf806679a2706330dc9/replicatedPimaIndiansDatasetForDiabetes/formResponses1" summary="Form Response 1b" %}
@@ -45,7 +55,7 @@ Update a Row
 
 {% swagger-response status="200: OK" description="HTTP OK" %}
 ```javascript
-{
+<{
     // Response
 }
 ```
