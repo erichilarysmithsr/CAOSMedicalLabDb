@@ -98,3 +98,7 @@ Update a Row
   });
 ```
 {% endcode %}
+
+{% swagger src=".gitbook/assets/metabis.yaml" path="undefined" method="undefined" %}
+[metabis.yaml](.gitbook/assets/metabis.yaml)
+{% endswagger %}
