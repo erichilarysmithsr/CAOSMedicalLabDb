@@ -8,7 +8,11 @@ description: Landing Page for CAOS Medical Lab Db Repository and CAOS API
 
 ### Content Object Resource Network Flake Server:  A Health Content Resource Information Management System for Emergent APHID
 
-#### Routinization of ePHI from Pharmakon Health Cloud to CAOS API
+#### Routinization of ePHI from some public entity to a medical data storage and medical warehouse system.
+
+#### What is Routinization?
+
+&#x20;
 
 &#x20;What is COMET FISH?
 
