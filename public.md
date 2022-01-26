@@ -8,7 +8,7 @@ description: Landing Page for CAOS Medical Lab Db Repository and CAOS API
 
 ### Content Object Resource Network Flake Server:  A Health Content Resource Information Management System for Emergent APHID
 
-#### Routinization of ePHI from some public entity to a medical data storage and medical warehouse system.
+#### Routinization of ePHI from some public entity to a medical data storage and medical data warehouse system.
 
 #### Purpose of CORNFlakeS
 
