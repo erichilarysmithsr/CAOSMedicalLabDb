@@ -28,24 +28,39 @@ Retrieve rows from your sheet
 {% endswagger-response %}
 {% endswagger %}
 
-{% code title="index.html" %}
+{% code title="caos.html" %}
 ```html
-<head>
-<script>
-Some S is P.
-Proposition.  Suppose some S is P.
-There exist that some S is P.
-Let S, S is P.
-When S is a nonzero matrix,
-When P is a nonzero matrix,
-and when S = m * n,
-and when P = m * n,
-and also, when m * n as a nonzero matrix is equaled to f(A),
-and also, when m * n as a nonzero matrix is equaled to f(B)
-and also, f(A) and f(B) are Invertible (I) because they are nonzero matrices.</script>
-</head>
-
-
+<html>
+  <head>
+   <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+   <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  <\head>
+    <body>
+      <py-script>
+      
+       patients = 'p'
+       
+       patients_name = 'African American'
+       patients_name1 = 'Latino American'
+       patients_name2 = 'Asian American'
+       patients_name3 = 'Native American'
+       patients_name4 = 'Mideastern American'
+       patients_name5 = 'White American'
+       
+       African_American = 'a'
+       Latino_American = 'l'
+       Asian_American = 's'
+       Native_American = 'n'
+       Mideastern_American = 'm'
+       White_American = 'w'
+       
+       a + l + s + n + m + w = p
+       
+       print(a + 1 + s + n + m + w)
+       
+      <\py-script>
+     <\body>
+ <\html>
 
 ```
 {% endcode %}
