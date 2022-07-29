@@ -1,5 +1,5 @@
 ---
-description: The Hub for Pharmakon Health Cloud
+description: The Hub for the Emergent APHID Group IL
 ---
 
 # ♿ CAOS API
