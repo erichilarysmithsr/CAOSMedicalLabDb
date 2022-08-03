@@ -1,7 +1,5 @@
 ---
-description: >-
-  The Adult Health Care Content Resource Management Hub for the Emergent APHID
-  Group IL
+description: The Hub for the Emergent APHID Group IL
 ---
 
 # ♿ CAOS API

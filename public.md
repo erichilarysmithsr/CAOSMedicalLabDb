@@ -4,11 +4,11 @@ description: Landing Page for CAOS Medical Lab Db Repository and CAOS API
 
 # Public
 
-## CORN FlakeS
+## A HealthCareful Content Resource Management Application
 
-### Content Object Resource Network Flake Server:  A Health Content Resource Information Management System for Emergent APHID
+### Content Object Resource Network Flake Server:  Adult Health Content Resource Information Management System for the Emergent APHID Group IL
 
-#### Routinization of ePHI from some public entity to a medical data storage and medical data warehouse system.
+#### Routinization of ePHI from some public entity to a medical data storage and medical data warehousing system.
 
 #### Purpose of CORNFlakeS
 
