@@ -1,5 +1,7 @@
 ---
-description: The Hub for the Emergent APHID Group IL
+description: >-
+  The Adult Health Care Content Resource Management Hub for the Emergent APHID
+  Group IL
 ---
 
 # ♿ CAOS API
@@ -113,11 +115,3 @@ Update a Row
   });
 ```
 {% endcode %}
-
-{% swagger src=".gitbook/assets/Math4YouByUsGroupIL-CAOS-1.0.0-resolved.yaml" path="undefined" method="undefined" %}
-[Math4YouByUsGroupIL-CAOS-1.0.0-resolved.yaml](.gitbook/assets/Math4YouByUsGroupIL-CAOS-1.0.0-resolved.yaml)
-{% endswagger %}
-
-{% swagger src=".gitbook/assets/metabis.yaml" path="undefined" method="undefined" %}
-[metabis.yaml](.gitbook/assets/metabis.yaml)
-{% endswagger %}
