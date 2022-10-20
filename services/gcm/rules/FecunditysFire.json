@@ -1,0 +1,9 @@
+{
+    "name": "FecunditysFire",
+    "actions": [
+        "send"
+    ],
+    "when": {
+        "%%user.type": "server"
+    }
+}

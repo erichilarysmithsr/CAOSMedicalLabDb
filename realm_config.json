@@ -1,0 +1,13 @@
+{
+    "app_id": "caosreaxson-ibjyy",
+    "config_version": 20210101,
+    "name": "CAOSREAXSON",
+    "location": "US-VA",
+    "provider_region": "aws-us-east-1",
+    "deployment_model": "GLOBAL",
+    "environment": "development",
+    "allowed_request_origins": [
+        "https://caosmedicallab.com",
+        "https://caosmedicallab.bot"
+    ]
+}

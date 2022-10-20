@@ -1,0 +1,11 @@
+{
+    "name": "gcm",
+    "type": "gcm",
+    "config": {
+        "senderId": "995803240621"
+    },
+    "secret_config": {
+        "apiKey": "pharmakonhealthcloud"
+    },
+    "version": 1
+}

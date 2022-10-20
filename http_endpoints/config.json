@@ -1,0 +1,35 @@
+[
+    {
+        "route": "/humansubjects",
+        "http_method": "POST",
+        "function_name": "Patient_name",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": true,
+        "create_user_on_auth": true,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/animalindividualmodels",
+        "http_method": "POST",
+        "function_name": "cultivated_state",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": true,
+        "create_user_on_auth": true,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/animalindividualmodels",
+        "http_method": "PUT",
+        "function_name": "cultivated_state",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": true,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    }
+]
