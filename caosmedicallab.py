@@ -1,3 +1,6 @@
+# CAOS Medical Lab 
+import math
+
 >>> S = 'Susceptible'
 >>> print(S)
 >>> E = 'Exposed'
