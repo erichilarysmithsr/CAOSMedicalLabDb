@@ -3,7 +3,6 @@
     "type": "mongodb-atlas",
     "config": {
         "clusterName": "CAOS",
-        "namespacePreimageConfigs": [],
         "readPreference": "primary",
         "wireProtocolEnabled": false
     },
