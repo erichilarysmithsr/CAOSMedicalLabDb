@@ -24,7 +24,7 @@
     {
         "route": "/animalindividualmodels",
         "http_method": "PUT",
-        "function_name": "cultivated_state",
+        "function_name": "caosFunc",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": true,
