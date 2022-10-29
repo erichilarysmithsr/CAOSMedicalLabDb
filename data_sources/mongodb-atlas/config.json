@@ -3,13 +3,7 @@
     "type": "mongodb-atlas",
     "config": {
         "clusterName": "CAOS",
-        "namespacePreimageConfigs": [
-            {
-                "collectionName": "CAOSBugsnag",
-                "dbName": "CAOIaaS",
-                "recordPreimages": true
-            }
-        ],
+        "namespacePreimageConfigs": [],
         "readPreference": "primary",
         "wireProtocolEnabled": false
     },
