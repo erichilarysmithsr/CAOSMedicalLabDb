@@ -1,14 +1,14 @@
 {
-    "id": "62fed0054dbb90b6ebadda61",
-    "name": "Patient-name-Trigger",
+    "id": "635d8bbc8f1f05b9348ac98a",
+    "name": "caosFuncTrigger",
     "type": "DATABASE",
     "config": {
         "operation_types": [
-            "UPDATE",
-            "INSERT"
+            "INSERT",
+            "UPDATE"
         ],
-        "database": "CAOSPublic",
-        "collection": "HumanSubjects",
+        "database": "CAOIaaS",
+        "collection": "CAOSBugsnag",
         "service_name": "mongodb-atlas",
         "match": {},
         "project": {},
@@ -22,7 +22,7 @@
     "event_processors": {
         "FUNCTION": {
             "config": {
-                "function_name": "Patient_name"
+                "function_name": "caosFunc"
             }
         }
     }
