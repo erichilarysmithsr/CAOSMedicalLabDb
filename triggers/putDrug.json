@@ -1,0 +1,17 @@
+{
+    "id": "642ec74eecc3aebe32323fd1",
+    "name": "putDrug",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 */2 * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "getDrug"
+            }
+        }
+    }
+}
