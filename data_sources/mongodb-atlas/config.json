@@ -3,13 +3,7 @@
     "type": "mongodb-atlas",
     "config": {
         "clusterName": "CAOS",
-        "namespacePreimageConfigs": [
-            {
-                "collectionName": "HumanSubjects",
-                "dbName": "METABIS",
-                "recordPreimages": true
-            }
-        ],
+        "namespacePreimageConfigs": [],
         "readPreference": "primary",
         "wireProtocolEnabled": false
     },
