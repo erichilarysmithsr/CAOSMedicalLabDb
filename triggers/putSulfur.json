@@ -1,0 +1,17 @@
+{
+    "id": "642ee157f8a3ab7beb2f51d5",
+    "name": "putSulfur",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 */2 * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "getUrea"
+            }
+        }
+    }
+}
