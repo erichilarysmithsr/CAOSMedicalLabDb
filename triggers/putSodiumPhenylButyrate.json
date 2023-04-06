@@ -3,7 +3,7 @@
     "name": "putSodiumPhenylButyrate",
     "type": "SCHEDULED",
     "config": {
-        "schedule": "0 */2 * * *",
+        "schedule": "*/12 * * * *",
         "skip_catchup_events": false
     },
     "disabled": false,
