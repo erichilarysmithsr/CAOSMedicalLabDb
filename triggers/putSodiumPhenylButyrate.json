@@ -1,0 +1,17 @@
+{
+    "id": "642f0b9984dacb3cc8866afa",
+    "name": "putSodiumPhenylButyrate",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 */2 * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "getNAGS"
+            }
+        }
+    }
+}
