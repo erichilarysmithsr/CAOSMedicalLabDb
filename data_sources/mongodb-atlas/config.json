@@ -3,13 +3,7 @@
     "type": "mongodb-atlas",
     "config": {
         "clusterName": "CAOS",
-        "namespacePreimageConfigs": [
-            {
-                "collectionName": "Diabetes",
-                "dbName": "GENECRISpy",
-                "recordPreimages": true
-            }
-        ],
+        "namespacePreimageConfigs": [],
         "readPreference": "primary",
         "wireProtocolEnabled": false
     },
