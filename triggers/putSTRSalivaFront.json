@@ -1,0 +1,29 @@
+{
+    "id": "6445acf25596e4f32f60f243",
+    "name": "putSTRSalivaFront",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT",
+            "UPDATE"
+        ],
+        "database": "GENECRISpy",
+        "collection": "Diabetes",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "project": {},
+        "full_document": true,
+        "full_document_before_change": true,
+        "unordered": false,
+        "skip_catchup_events": false,
+        "tolerate_resume_errors": true
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "getSTRSalivaFront"
+            }
+        }
+    }
+}
