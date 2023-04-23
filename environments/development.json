@@ -1,5 +1,6 @@
 {
     "values": {
-        "new_CAOStepwise": "setCAOStepwise"
+        "new_CAOStepwise": "setCAOStepwise",
+        "new_STRSalivaTestFront": "setSTRSalivaTestFront"
     }
 }
